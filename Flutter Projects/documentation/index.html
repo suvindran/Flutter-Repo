@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Documenter v.1.1 - QMS Lite Documentation by Log Searcher</title>
+	<meta name="description" content="Queue management system (QMS) is a product offering token management services to manage the incoming and outgoing customers. Queues of people form in various situations and locations in a queue area. QMS is applicable to Restaurant, Food Stall, Clinic and etc. QMS can reduce the workforce for the business and also reduce the cost of maintenance.">
+	<meta name="author" content="Log Searcher">
+	<meta name="copyright" content="Log Searcher">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2018-10-24T00:00:00+02:00">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="assets/css/documenter_style.css" rel="stylesheet">
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+
+	<style>
+		html,
+		body {
+			background-color: #F3F3F3;
+			color: #585858;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: #585858;
+		}
+
+		section table {
+			background-color: #F3F3F3;
+		}
+
+		::-moz-selection {
+			background: #111111;
+			color: #F1F1F1;
+		}
+
+		::selection {
+			background: #111111;
+			color: #F1F1F1;
+		}
+
+		a.brand {
+			background-image: url(assets/images/ic_launcher.png);
+		}
+
+		a,
+		a:hover,
+		a:active {
+			color: #111111;
+		}
+
+		hr {
+			border-top: 1px solid #E5E5E5;
+			border-bottom: 1px solid #F9F9F9;
+		}
+
+		div.navbar-inner,
+		.navbar .nav li ul {
+			background: #333333;
+			color: #F1F1F1;
+			http: //static.revaxarts-themes.com/noise.gif}
+
+				a.btn-navbar {
+				background: #333333;
+				color: #F1F1F1;
+			}
+
+			.navbar .nav li a {
+				color: #F1F1F1;
+				text-shadow: 1px 1px 0px #444444;
+			}
+
+			.navbar .nav li a:hover,
+			.navbar .nav li.active a {
+				text-shadow: none;
+			}
+
+			div.navbar-inner ul {}
+
+			.marketing-byline {
+				color: #F9F9F9;
+			}
+
+			.navbar .nav>li a {
+				color: #F1F1F1;
+			}
+
+			.navbar .nav>li a:hover,
+			a.btn-navbar:hover {
+				background: #111111;
+				color: #F1F1F1;
+			}
+
+			.navbar .nav .active>a,
+			.navbar .nav .active>a:hover,
+			a.btn-navbar:active {
+				background-color: #111111;
+				color: #F1F1F1;
+			}
+
+			.navbar .nav li ul li a:hover {
+				background: #111111;
+				color: #F1F1F1;
+			}
+
+			.navbar .nav li ul li a:active {
+				background: #111111;
+				color: #F1F1F1;
+			}
+
+			.btn-primary {
+				background-image: -moz-linear-gradient(top, #585858, #3B3B3B);
+				background-image: -ms-linear-gradient(top, #585858, #3B3B3B);
+				background-image: -webkit-gradient(linear, 0 0, 0 585858%, from(#333333), to(#3B3B3B));
+				background-image: -webkit-linear-gradient(top, #585858, #3B3B3B);
+				background-image: -o-linear-gradient(top, #585858, #3B3B3B);
+				background-image: linear-gradient(top, #585858, #3B3B3B);
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#585858', endColorstr='#3B3B3B', GradientType=0);
+				border-color: #3B3B3B #3B3B3B #bfbfbf;
+				color: #F9F9F9;
+			}
+
+			.btn-primary:hover,
+			.btn-primary:active,
+			.btn-primary.active,
+			.btn-primary.disabled,
+			.btn-primary[disabled] {
+				background-color: #3B3B3B;
+			}
+
+			#documenter_copyright {
+				display: block !important;
+				visibility: visible !important;
+			}
+	</style>
+
+	<link rel="stylesheet" href="assets/css/custom.css" media="screen">
+
+	<script src="assets/js/cufon.js"></script>
+	<script src="assets/js/font.js"></script>
+	<script>Cufon.replace("h1, h2, h3, h4, h5, h6");</script>
+</head>
+
+<body class="documenter-project-documenter-v10" data-spy="scroll" id="top">
+
+	<!-- Documentation Navbar -->
+
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span
+					 class="icon-bar"></span> <span class="icon-bar"></span> </a>
+				<a class="brand" href="#">QMS Lite Documentation by Log Searcher</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li><a href="#projectStructure">Project Structure of Flutter Project</a></li>
+						<li><a href="#flutterFiles">Flutter Files and Structure</a></li>
+						<li><a href="#configurationFiles">Configuration Files</a></li>
+						<li><a href="#flutterCommand">Flutter Command</a></li>
+						<li><a href="#setupFirebase">Setup Firebase goolge-services.json</a></li>
+						<li><a href="#setupFirebaseAuth">Setup Firebase Auth</a></li>
+						<li><a href="#setupWeb">Setup a Web Application</a></li>
+						<li><a href="#setupIcon">Customize the Launcher Icon (Application Icon)</a></li>	
+						<li><a href="#apkRelease">Build a apk release</a></li>
+						<li><a href="#usefulTutorial">Useful Tutorials</a></li>			
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div> <!-- End of Navbar -->
+
+	<!-- Main Container Beginning -->
+
+	<div class="container" id="documenter_content">
+
+		<div id="documenter-cover">
+			<div class="masthead">
+				<h1>Paperless QueueMS Documentation by Log Searcher</h1> 
+				<p>Queue management system (QMS) is a product offering token management services to manage the incoming and
+					outgoing customers. Queues of people form in various situations and locations in a queue area. QMS is applicable
+					to Restaurant, Food Stall, Clinic and etc. QMS can reduce the workforce for the business and also reduce the cost
+					of maintenance.</p>
+				<ul class="marketing-byline">
+					<li>created: 11/08/2018</li>
+					<li>latest update: 5 March 2019</li>
+					<li>by: Log Searcher</li>
+					<li><a href="https://wheref.com">Wheref.com</a></li>
+				</ul>
+				</p>
+
+			</div> <!-- masthead -->
+
+			<div id="intro">
+				<p class="highlight hero-unit">
+					Paperless Queue Management System allows you to get a queue number using your smartphone. 
+					It’s the perfect way to monitor & track your real time queue status remotely using only smartphone 
+					without the need to be physically chained to the waiting area at the customer service outlet. 
+					QueueMS allows you to go for a cup of coffee or even window shopping at nearby premises while still 
+					intact queueing for your turn. It offers a peace of mind because the real time queue status update on 
+					your smartphone ensure you will not miss the queue! Just relax and enjoy your coffee while still in queue.
+				</p>
+				<p>
+					Paperless Queue Management System included 3 projects.<br/><br/>
+					1. Client APP<br/>
+						Folder Name is 'queuemsclient'<br/>
+						This project is a Flutter project<br/><br/>
+					2. Admin APP<br/>
+						Folder Name is 'queuemsadmin'<br/>
+						This project is a Flutter project<br/><br/>
+					3. Web Application<br/>
+						Folder Name is 'queuems'<br/>
+						This project is a Web project with Angular, NodeJS and Firebase Hosting.<br/><br/>
+				</p>
+				<p>
+					This document was an Installation Guide. Some of the installation guide was based on the Internet Tutorial to gain a basic knowledge.
+				</p>
+			</div> <!-- intro -->
+
+		</div>
+
+		<section id="projectStructure">
+			<div class="page-header">
+				<h3>Project Structure</h3>
+				<hr class="notop">
+			</div>
+			<p>
+				Assumed that, you have a basic knowledge on Firebase, Android and Angular.
+				I am using VS Code and Andriod Studio for working on the project. The project structure was shown below:-
+			</p>
+			<table border="1" style="border: 1px solid grey;width:100%;">
+				<tr>
+					<td>Flutter Project</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="assets/images/flutterProjectStruture.PNG" alt="Project Structure" />
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section id="flutterFiles">
+			<div class="page-header">
+				<h3>Flutter Files and Structure</h3>
+				<hr class="notop">
+			</div>
+			<table border="1" style="border: 1px solid grey;width:100%;">
+				<tr>
+					<td>Flutter Project</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="assets/images/flutterFolderStruture.PNG" alt="Project Structure" />
+					</td>
+				</tr>
+			</table>
+		</section>
+
+
+		<section id="configurationFiles">
+			<div class="page-header">
+				<h3>Configuration Files</h3>
+				<hr class="notop">
+			</div>
+			<p>The flutter main configuration was named pubspec.yaml. If want release an APK version, you should rename the version as shown below:-</p>
+
+			<p><img src="assets/images/flutterProjectConfig.PNG" alt="Flutter Project Config"/></p>
+
+		</section>
+
+		<section id="flutterCommand">
+			<div class="page-header">
+				<h3>Flutter Command</h3>
+				<hr class="notop">
+			</div>
+			<p>To get started Flutter project, you can refer to <a href="https://flutter.io/get-started/install/">https://flutter.io/get-started/install/</a></p>
+
+			<p>Common Flutter Commad that I frequently used:-</p>
+			<ul>
+				<li>&gt; flutter doctor</li>	
+				<li>&gt; flutter run</li>
+				<li>&gt; flutter build apk</li>
+				<li>&gt; flutter install</li>
+			</ul>
+
+		</section>
+
+		<section id="setupFirebase">
+			<div class="page-header">
+				<h3>Setup Firebase google-service.json</h3>
+				<hr class="notop">
+			</div>
+			<p>I recommanded to read the basic setup a Firebase project online <a href="http://mariechatfield.com/tutorials/firebase/step1.html">here</a></p>
+
+			<p>After that, download google-services.json into project</p>
+			
+			<img src="assets/images/googleServicesJson.png"/>
+
+		</section>
+
+		<section id="setupFirebaseAuth">
+			<div class="page-header">
+				<h3>Setup Firebase Auth</h3>
+				<hr class="notop">
+			</div>
+			<p>The projects were using phone auth. You should enable the phone auth like the screenshot below:-</p>
+
+			<img src="assets/images/authPhone.png"/>
+
+			<p>For testing purpose, you can add couple of testing phone number and verification code</p>
+
+			<img src="assets/images/authPhoneTest.PNG"/>
+
+			<p>For real env and receive the SMS verification, you need setup the SHA key like the sreenshot below. Please read the guide <a href="https://developers.google.com/android/guides/client-auth">here</a></p>
+			<img src="assets/images/authPhoneSHA.PNG"/>
+
+		</section>
+
+		<section id="setupWeb">
+			<div class="page-header">
+				<h3>Setup a Web Application</h3>
+				<hr class="notop">
+			</div>
+			<p>
+				The Web Application project folder was called 'queuems' which was developed with Angular, Node JS and Firebase Hosting. <br/>
+				Make sure the NodeJS was installed on your PC. Download is <a href="https://nodejs.org/en/download/">here</a> [IMPORTANT!].
+				This project was used for display the running real time token number on DISPLAY UNIT such as smart TV. <br/>
+				This project should be deployed on Firebase Hosting with the tutorial <a href="https://firebase.google.com/docs/hosting/quickstart">here</a> [IMPORTANT!]. <br/>
+				This tutorial will init a Firebase Hosting project withe Firebase CLI.
+				For this project, the command should be ran: <br/><br/>
+				1.	Goto [BASE_PATH]\queuems\src\environments\ <br/>
+					Edit 'environment.prod.ts' and 'environment.ts' files with the property on 'google-service.json' <br/><br/>
+				2. 	Goto [BASE_PATH]\queuems\ <br/>
+				   	Run 'npm i' which will init all the node module from the pre defined on 'package.json' file. <br/><br/>
+				3. Goto [BASE_PATH]\queuems\functions\ <br/>
+					Run 'npm i' <br/><br/>
+				4. 	Goto [BASE_PATH]\queuems\ <br/>
+					Run 'ng serve' which will start the locahost server with this address http://localhost:4200 <br/><br/>
+				5.	If everything is ok, generate the output on the [BASE_PATH]\queuems\dist\queuems\ with command 'ng build --prod' <br/><br/>
+				6. 	If everything is ok, deploy to Firebase Hosting with command 'firebase deploy'. <br/>
+					Run 'firebase deploy' which will deploy the hosting and functions to the Firebase Hosting <br/><br/>
+			</p>
+				
+		</section>
+
+		<section id="setupIcon">
+			<div class="page-header">
+				<h3>Customize the Launcher Icon (Application Icon)</h3>
+				<hr class="notop">
+			</div>
+			<p>You just need to replace the following image res/drawable-xxxhdpi/ic_launcer.png with yours. Please make sure to create an image with the same image size (width and height).</p>
+
+		</section>	
+		<section id="apkRelease">
+			<div class="page-header">
+				<h3>Build apk Release</h3>
+				<hr class="notop">
+			</div>
+			<p>Please read this doc <a href="https://flutter.dev/docs/deployment/android">here</a> [IMPORTANT!]</p>
+			<p>
+				The predefined JKS file is 'simple-key.jks'.
+				The configuration file is 'key.properties'. 
+				The provided projects was defined with this default setting and no need to configure for startup.
+				However, if need a new JKS, 'key.properties' should be modified.
+			</p>
+
+		</section>		
+		<section id="usefulTutorial">
+			<div class="page-header">
+				<h3>Useful Tutorial</h3>
+				<hr class="notop">
+			</div>
+			<p>
+				<ul>
+					<li>http://myhexaville.com/2018/04/09/flutter-push-notifications-with-firebase-cloud-messaging/</li>
+					<li>https://marcinszalek.pl/flutter/flutter-fullscreendialog-tutorial-weighttracker-ii/</li>
+					<li>https://flutter.dev/docs/deployment/android</li>
+					<li>https://flutter.dev/docs/development/accessibility-and-localization/internationalization</li>
+				</ul>
+		
+			</p>
+		</section>
+		<hr />
+
+		<footer>
+			<p>Copyright Log Searcher 2019 made with the <a href="http://rxa.li/documenter">Documenter v2.0</a></p>
+		</footer>
+
+	</div><!-- /container -->
+
+	<!-- Le javascript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script>document.createElement('section'); var duration = '450', easing = 'easeOutExpo';</script>
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	<script src="assets/js/scripts.js"></script>
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+	<script src="assets/js/bootstrap-min.js"></script>
+</body>
+
+</html>

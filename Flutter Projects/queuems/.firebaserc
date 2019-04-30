@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "queuems-5513d"
+  },
+  "targets": {
+    "queuems-5513d": {
+      "hosting": {
+        "queuems": [
+          "queuems"
+        ]
+      }
+    }
+  }
+}

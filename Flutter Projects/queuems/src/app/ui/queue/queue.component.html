@@ -1,0 +1,45 @@
+<div id="wrapper">
+    <table style="width:100%;">
+        <tr>
+            <td style="width:30vw">
+              <table style="width:100%;">
+                <tr *ngFor="let item of (items | async); let i = index; let c = count;">
+                  <td>
+                    <div class="text-center align-middle p-2 vh-25" style="background-color: gold">
+                      <div class="p-2" style="font-size:4vw;font-weight:bold;line-height:1.45">
+                        <span>{{item.tokenLetter}}-{{item.tokenNumber}}</span>&nbsp;&nbsp;
+                        <span class="badge badge-secondary">{{item.counterName}}</span>
+                      </div>
+                    </div>  
+                  </td>
+                </tr>
+                <tr *ngFor="let number of emptyItems">
+                  <td>
+                    <div class="text-center align-middle p-2 vh-25" style="background-color: gold">
+                      <div style="font-size:4vw;font-weight:bold;line-height:1.45">- -</div>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td>
+                <div class="align-middle pt-5" *ngFor="let item of (onQueueItems | async); let i = index">
+                  <div *ngIf="i == 0" class="text-center"
+                  [@flyInOut]="'in'">
+                    <span><img src="{{item.company.logo}}" width="30"/> {{item.company.name}}</span>&nbsp;&nbsp;
+                    <h1>Token Number</h1>
+                    <div style="font-size:10vw;color:red;font-weight:bold;line-height:1.5">{{item.tokenLetter}}-{{item.tokenNumber}}</div>
+                    <h4>Please Proceed To</h4>
+                    <h3>Counter {{item.counterName}}</h3>
+                  </div>
+                </div>
+                
+                <div class="align-middle pt-5" *ngIf="(onQueueItems | async)?.length == 0" class="text-center" style="margin: 100px;"
+                [@flyInOut]="'in'">
+                  <h1>Token Number</h1>
+                  <div style="font-size:10vw;color:red;font-weight:bold;line-height:1.5">- -</div>
+                </div>
+              </td>
+        </tr>
+    </table>      
+</div>

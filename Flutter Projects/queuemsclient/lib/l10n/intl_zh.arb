@@ -1,0 +1,664 @@
+{
+  "@@last_modified": "2018-09-24T15:46:28.685774",
+  "title": "QueueMS",
+  "@title": {
+    "description": "The application title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "hello": "你好",
+  "@hello": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "peopleWait": "等待的顾客",
+  "@peopleWait": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "tokenNumber": "坐号",
+  "@tokenNumber": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "proceedTo": "前往到",
+  "@proceedTo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "counter": "柜台",
+  "@counter": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "createdDate": "创造",
+  "@createdDate": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "statusQueue": "状况",
+  "@statusQueue": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "currentToken": "目前坐号",
+  "@currentToken": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "myQueue": "我的列队",
+  "@myQueue": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "more": "更多",
+  "@more": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "myQueueToday": "我今天的列队",
+  "@myQueueToday": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "openWebSite": "打开网站",
+  "@openWebSite": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "subscribe": "订阅",
+  "@subscribe": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "unsubscribe": "退出订阅",
+  "@unsubscribe": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "notification": "通知",
+  "@notification": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "name": "名字",
+  "@name": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "runningOn": "运行",
+  "@runningOn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "versionName": "版本",
+  "@versionName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "versionCode": "版本号",
+  "@versionCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "appId": "应用号",
+  "@appId": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "localTime": "本地时间",
+  "@localTime": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "timezone": "时区",
+  "@timezone": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "myPhoneNumber": "我的电话号码",
+  "@myPhoneNumber": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "signout": "退出",
+  "@signout": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "phone": "电话",
+  "@phone": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "loginMessage": "我们将会发送确认短信到你的手机，请在下框输入您的电话号码！",
+  "@loginMessage": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "verificationCode": "确认号",
+  "@verificationCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "pinNotArrive": "如果你在一分钟里没收到确认短信，按",
+  "@pinNotArrive": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "here": "这里",
+  "@here": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "wantExit": "请问要不要退出？",
+  "@wantExit": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ok": "可以",
+  "@ok": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cancel": "取消",
+  "@cancel": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ago": "之前",
+  "@ago": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "wrongVerifyCode": "我们暂时无法确认您的编号，请稍后再试！",
+  "@wrongVerifyCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cannotCreateProfile": "我们暂时无法创建您的个人资料，请稍后再试！",
+  "@cannotCreateProfile": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cannotRetry": "您暂时无法重来，请稍后再试！",
+  "@cannotRetry": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cannotPhoneEmpty": "您的电话号码不能为空！",
+  "@cannotPhoneEmpty": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "invalidPhone": "这个电话号码无效！",
+  "@invalidPhone": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cannotVerificationCodeEmpty": "您的验证码不能为空！",
+  "@cannotVerificationCodeEmpty": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "invalidVerificationCode": "此验证码无效！",
+  "@invalidVerificationCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "selectLanguage": "选择语言",
+  "@selectLanguage": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "openDisplayUnit": "打开显示屏",
+  "@openDisplayUnit": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "showQueueHistory": "座号历史",
+  "@showQueueHistory": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "issueToken": "创建座号",
+  "@issueToken": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "home": "回到主页",
+  "@home": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "waitedForComplete": "等到完成",
+  "@waitedForComplete": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cannotIssueTokenHoliday": "您不能在假期期间发出座号。今天是 ",
+  "@cannotIssueTokenHoliday": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mustIssueTokenOfficeHours": "您必须在办公时间内签发座号\n办公时间:-",
+  "@mustIssueTokenOfficeHours": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "notMeetTimeInterval": "不符合创建下一个座号的时间间隔。",
+  "@notMeetTimeInterval": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "tokenList": "座号列表",
+  "@tokenList": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nextToken": "下个座号",
+  "@nextToken": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "selectDepartment": "单位选项",
+  "@selectDepartment": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "selectCounter": "柜台选项",
+  "@selectCounter": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "recall": "召回",
+  "@recall": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "currentStore": "在线商店",
+  "@currentStore": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "storeList": "商店列表",
+  "@storeList": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "doYouWantRecall": "是否召回?",
+  "@doYouWantRecall": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "deparment": "单位",
+  "@deparment": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "insightCompare": "对比报表",
+  "@insightCompare": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "insightLast7days": "七天报表",
+  "@insightLast7days": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "insightToday": "今天报表",
+  "@insightToday": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "officeHours": "办公时间",
+  "@officeHours": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "publicHolidays": "假期",
+  "@publicHolidays": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "storeForm": "商店表",
+  "@storeForm": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "reportCompare": "对比报表",
+  "@reportCompare": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "yesterday": "昨天",
+  "@yesterday": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "today": "今天",
+  "@today": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "totalTokenCount": "坐号总数",
+  "@totalTokenCount": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "report7daysAgo": "七天报表",
+  "@report7daysAgo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "reportPercentageToday": "今天比报表",
+  "@reportPercentageToday": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "counterList": "柜台列表",
+  "@counterList": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "createCounter": "创建柜台",
+  "@createCounter": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "departmentList": "单位列表",
+  "@departmentList": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "departmentForm": "单位表",
+  "@departmentForm": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "createDepartment": "创建单位",
+  "@createDepartment": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "letter": "符号",
+  "@letter": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "start": "开始",
+  "@start": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "timeIntervalToIssueToken": "创建坐号时间间隔",
+  "@timeIntervalToIssueToken": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "timeIntervalToIssueTokenText": "时间间隔是为了防止用户重复创建坐号。单位是分钟.",
+  "@timeIntervalToIssueTokenText": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "timeInterval": "时间间隔",
+  "@timeInterval": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "timeIntervalHint": "例: 2 分钟",
+  "@timeIntervalHint": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "save": "储存",
+  "@save": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "holidayList": "假期列表",
+  "@holidayList": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "holidayDate": "假期日期",
+  "@holidayDate": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "whatIsHolidayName": "是什么假期名字？",
+  "@whatIsHolidayName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseEnterSomeText": "请输入文字。",
+  "@pleaseEnterSomeText": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "createHoliday": "创建假期",
+  "@createHoliday": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "holidayForm": "假期表",
+  "@holidayForm": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "enableHolidayText": "为了启动假期，必须开启按钮。",
+  "@enableHolidayText": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "officeHoursList": "办公时间列表",
+  "@officeHoursList": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "createOfficeHours": "创建办公时间",
+  "@createOfficeHours": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "enableThisStore": "启动这商店",
+  "@enableThisStore": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "edit": "编辑",
+  "@edit": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "submit": "提交",
+  "@submit": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "counterForm": "柜台表",
+  "@counterForm": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "wantResetTokenNumber": "是否要重启坐号号码到开始号码？",
+  "@wantResetTokenNumber": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "resetTokenNumber": "重启坐号号码",
+  "@resetTokenNumber": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "toStartNumber": "到开始号码",
+  "@toStartNumber": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "officeHoursForm": "办公时间表",
+  "@officeHoursForm": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "enableOfficeHours": "为了启动办公时间，必须开启按钮。",
+  "@enableOfficeHours": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "monday": "星期一",
+  "@monday": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "tuesday": "星期二",
+  "@tuesday": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "wednesday": "星期三",
+  "@wednesday": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "thursday": "星期四",
+  "@thursday": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "friday": "星期五",
+  "@friday": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "saturday": "星期六",
+  "@saturday": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "sunday": "星期天",
+  "@sunday": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "admin": "管理员",
+  "@admin": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "captured": "捕获",
+  "@captured": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "meter": "米",
+  "@meter": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "kilometer": "公里",
+  "@kilometer": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "away": "远",
+  "@away": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "distance": "距离",
+  "@distance": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "userProfile": "用户资料",
+  "@userProfile": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "online": "在线",
+  "@online": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "offline": "下线",
+  "@offline": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noMoreNextToken": "没下个坐号",
+  "@noMoreNextToken": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "issueTokenAdminText": "用户必须用这电话号登入手机客户端查询坐号更新。",
+  "@issueTokenAdminText": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "remove": "删除",
+  "@remove": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "wantRemove": "是否要删除？",
+  "@wantRemove": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "store": "商店",
+  "@store": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "availableStore": "所有商店",
+  "@availableStore": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "address": "地址",
+  "@address": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "email": "电邮",
+  "@email": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "coordinates": "坐标",
+  "@coordinates": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "showWaitingQueueHistory": "显示等待坐号历史",
+  "@showWaitingQueueHistory": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "wantConfirm": "确认？",
+  "@wantConfirm": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "storeSetting": "商店设定",
+  "@storeSetting": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "insight": "报告",
+  "@insight": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "otherSetting": "其他设定",
+  "@otherSetting": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "options": "选项",
+  "@options": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

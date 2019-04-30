@@ -1,0 +1,22 @@
+
+#wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+.vh-100 {
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.vh-33 {
+    min-height: 33vh;
+}
+.vh-25 {
+    min-height: 24vh;
+}
+
+@media screen and (orientation:portrait) {
+    #wrapper {
+        object-fit: cover;
+    }
+}

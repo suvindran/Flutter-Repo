@@ -1,0 +1,597 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "counterKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "isOnQueue",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userPhone",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "createdDay",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdMonth",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdYear",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "depKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isCompleted",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "counterKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "companyKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "companyKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDay",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdMonth",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdYear",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "companyKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "isRecall",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "key",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "depKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "reset",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "reset",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "serverTimestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "companyKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "depKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "serverTimestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "isOnWait",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "companyKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "reset",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "companyKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "depKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isOnWait",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "reset",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "assignedDay",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedMonth",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedYear",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "counterKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "companyKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "depKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isOnQueue",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "reset",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "companyKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDay",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdMonth",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdYear",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "depKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isOnWait",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "createdDay",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdMonth",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdYear",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "userPhone",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "createdDay",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdMonth",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdYear",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "depKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "companyKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDay",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdMonth",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdYear",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "depKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isOnWait",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "reset",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "isCompleted",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "assignedHour",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedMin",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "companyKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdDay",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdMonth",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdYear",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "depKey",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isOnQueue",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "createdDay",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdMonth",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdYear",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tokenIssued",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userPhone",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "assignedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

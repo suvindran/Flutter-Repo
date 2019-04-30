@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "notification": {
+      ".indexOn": [
+        "phoneNformattedDateNdepKey"
+      ]
+    },
+    ".write": "auth != null",
+    ".read": "auth != null"
+  }
+}

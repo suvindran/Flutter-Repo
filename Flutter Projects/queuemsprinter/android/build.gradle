@@ -1,0 +1,45 @@
+group 'com.wheref.queuemsprinter'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 21
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+    dependencies {
+        compile fileTree(include: ['*.jar'], dir: 'libs')
+        implementation 'com.google.code.gson:gson:2.8.5'
+        implementation 'androidx.annotation:annotation:1.0.0'
+
+        // Printer
+        implementation 'commons-codec:commons-codec:1.12'
+        implementation 'com.github.promeg:tinypinyin:1.0.0'
+        implementation files('libs/AndroidPrinterSDK3.1.jar')
+    }
+}
